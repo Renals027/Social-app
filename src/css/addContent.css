@@ -1,0 +1,21 @@
+.image-item{
+    padding:3%;
+}
+
+.addButton Button{
+    background-color: black;
+    color:rgb(212, 198, 198);
+    text-transform: capitalize;
+    font-size: small;
+    border-radius: 6%;
+    padding: 1%;
+    margin-left: 2%;
+}
+
+.addButton Button:hover{
+    color:#000;
+}
+
+.image-item{
+    margin-right: 2%;
+}
