@@ -1,0 +1,36 @@
+.feed{
+    margin: 2% 0 8% 0;
+}
+
+.buttonTrue{
+    color: #fa0f69 !important;
+    margin-left: 2%;
+}
+
+.buttonTrue:active{
+    color: #f70202 !important;
+    transform: translateY(1px);
+    font-size: 1.8rem !important;
+    transition: all 0.1s ease-out;
+}
+
+.buttonTrue:hover{
+    cursor: pointer;
+    transform: rotate(360deg);
+}
+
+.buttonFalse{
+    color:#686464;
+    margin-left: 2%;
+
+}
+
+.buttonFalse:hover{
+    cursor: pointer;
+}
+
+.favCount{
+    font-size:medium;
+    margin-left: 1% !important;
+    margin:0;
+}

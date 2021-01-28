@@ -1,0 +1,72 @@
+.introPage {
+  position: fixed;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(255, 0, 0, 0.4)),
+    url("../images/bg2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+
+.brand{
+    color: #fff;
+    font-size: 2.2rem;
+    margin: 0;
+}
+
+.content1{
+    color: #fff;
+    text-align: center;
+    margin: 3%;
+}
+
+.content1 h1{
+    font-weight: 500;
+    font-size: 3em;
+}
+
+.content1 h2{
+    font-weight: 350;
+    font-size: 2em;
+}
+
+.content1 h3{
+    font-weight: 100;
+    font-size: 1.6em;
+}
+
+.content2{
+    text-align:center;
+}
+
+/* mediaQuery */
+@media only screen and (max-width: 600px){
+    .appbar h5{
+        text-align: center;
+        font-size: 1.6rem;
+    }
+    .content2 Button{
+        width: 100%;
+        font-size: 0.7rem;
+    }
+    .appbar Button{
+        font-size: 0.7rem;
+        padding: 2%;
+    }
+    .appbar img{
+        width:12%;
+    }
+}
+
+@media only screen and (max-width: 400px){
+    .content1 h1{
+        font-size: 2rem;
+    }
+    .content1 h2{
+        font-size: 1.7rem;
+        padding: 1%;
+    }
+    .content1 h3{
+        font-size: 1.3rem;
+    }
+}

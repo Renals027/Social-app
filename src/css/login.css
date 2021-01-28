@@ -1,0 +1,83 @@
+.buttonColor{
+    background: linear-gradient(90deg, rgba(253,179,29,1) 0%, rgba(253,133,29,1) 56%, rgba(228,47,34,1) 100%);
+     
+}
+
+.title{
+    background: linear-gradient(90deg, rgba(210,8,8,1) 0%, rgba(217,137,58,1) 62%, rgba(255,115,0,1) 100%);
+}
+
+
+.titlelogincontent{
+    text-align: center;
+    padding-left: 25%;
+    padding-top: 4% ;
+    padding-bottom: 3%;
+}
+
+.titlecontentIcon{
+    text-align: right;
+    padding-top:3%;
+}
+
+.title h2{
+    color:#fff;
+    font-size: 2rem ;
+}
+
+.inputSpace{
+    margin-top:10%;
+    margin-bottom: 8%;
+    margin-left:2%;
+}
+
+.error {
+    justify-content: center;
+}
+
+.error h5{
+    margin:0;
+    color: #ec4646;
+}
+
+.textField {
+    padding-left: 5% ;
+}
+
+/* mediaQuery */
+@media only screen and (max-width: 600px){
+    .title{
+        padding:1% !important;
+    }
+    .titlelogincontent{
+        padding-top: 0%;
+        padding-bottom: 0%;
+        font-size: 2rem;
+    }
+    .titlecontentIcon{
+        padding:0%;
+    }
+
+}
+
+@media only screen and (max-width: 400px){
+    .title{
+        padding:1% !important;
+    }
+    .titlelogincontent{
+        padding-top: 0%;
+        padding-bottom: 0%;
+        font-size: 2rem;
+    }
+    .titlecontentIcon{
+        padding:0%;
+    }
+    .textField {
+        padding-left: 8% ;
+    }
+    .inputSpace{
+        margin-left:0;   
+         margin-top:8%;
+        margin-bottom: 8%;
+       }
+    }

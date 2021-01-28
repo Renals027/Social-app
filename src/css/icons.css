@@ -1,0 +1,10 @@
+.MuiIconButton-root{
+    padding:12px;
+}
+
+@media only screen and (max-width: 600px){
+    .MuiIconButton-root{
+        padding:6px;
+        font-size: 0.8rem;
+    }
+}
