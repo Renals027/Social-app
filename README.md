@@ -3,6 +3,9 @@ A web application to post photos which is user specific (similar to instagram)
 
 ## Usuage 
 The application is made with React as the front-end and the mongoDB as the database
+ 1. Register with email and password 
+ 2. Login to enter the user portal
+ 3. Post the photos on your user account
 
 ### React start
  1. For react starter guide [quickstart guide](https://reactjs.org/docs/create-a-new-react-app.html). 
